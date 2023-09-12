@@ -7,6 +7,7 @@ public class Produto {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
+  @NotNull 
   private String nome;
   private String descricao;
   private Boolean ativo;
